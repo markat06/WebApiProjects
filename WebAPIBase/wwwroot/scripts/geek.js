@@ -1,6 +1,6 @@
 ﻿window.onload = function () {
     letöltés();
-    letöltésBefejeződött(k)
+    //letöltésBefejeződött(k)
 }
 
 var viccek;
@@ -13,7 +13,7 @@ fetch('/jokes.json')
 }
 
 function letöltésBefejeződött(d) {
-    console.log("Sikeres letöltés")
-    console.log(d)
+    console.log("Sikeres letöltés");
+    console.log(d);
     viccek = d;
 }

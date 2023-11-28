@@ -1,5 +1,3 @@
-{
-  "exclude": [
     [
       {
         "text": "q. How do you comfort a JavaScript bug? a. You console it.",
@@ -239,5 +237,3 @@
         "rating": 1
       }
     ]
-  ]
-}
